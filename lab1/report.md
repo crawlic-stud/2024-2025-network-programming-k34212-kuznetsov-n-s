@@ -28,3 +28,12 @@ Date of finished: 28.09.2024
 На систему сервера был установлен python3 и Ansible:
 
 ![image](https://github.com/user-attachments/assets/5ca50693-24a4-421a-af10-8bd82ff6c24d)
+
+Далее, был установлен Wireguard, созданы публичный и приватный ключ, а также файл конфигурации wg0.conf:
+
+![image](https://github.com/user-attachments/assets/91d7e049-70c4-453f-835b-8891f8db50d9)
+
+После чего интерфейс был поднят с помощью команды `wg-quick up`:
+
+![image](https://github.com/user-attachments/assets/8ca248bd-1144-4a65-94db-37309ae64042)
+
