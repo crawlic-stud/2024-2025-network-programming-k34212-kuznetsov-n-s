@@ -31,9 +31,42 @@ Date of finished: 28.09.2024
 
 Далее, был установлен Wireguard, созданы публичный и приватный ключ, а также файл конфигурации wg0.conf:
 
-![image](https://github.com/user-attachments/assets/91d7e049-70c4-453f-835b-8891f8db50d9)
+![image](https://github.com/user-attachments/assets/8c0ed7f7-a37d-49d3-bcbc-d28961d6430a)
 
-После чего интерфейс был поднят с помощью команды `wg-quick up`:
+
+После чего интерфейс был поднят с помощью команды `wg-quick up` и `systemctl start wg-quick@wg0.service`:
 
 ![image](https://github.com/user-attachments/assets/8ca248bd-1144-4a65-94db-37309ae64042)
 
+![image](https://github.com/user-attachments/assets/c6e64de3-d0a4-47b0-afdf-57ad094319dc)
+
+
+Далее, со стороны клиента в WinBox был настроен интерфейс Wireguard, в котором был указан приватный ключ и порт доступа от интерфейса:
+
+![image](https://github.com/user-attachments/assets/c21cd687-b2ba-4e64-9c52-9175f6e80f2f)
+
+![image](https://github.com/user-attachments/assets/0ee0685a-1400-40ef-add2-33cc20a2b0e9)
+
+### Проверка работоспособности
+
+- Пинг с клиента на сервер:
+
+![image](https://github.com/user-attachments/assets/5edb7c9d-547d-4498-8953-058f1f7e0ec9)
+
+- Доступ в интернет на клиенте:
+
+![image](https://github.com/user-attachments/assets/d475919c-1eb4-4d71-bb8b-d291c74a1b22)
+
+
+- Пинг с сервера на клиент:
+
+![image](https://github.com/user-attachments/assets/fd51671c-8a90-4c7a-8569-fb5a3d014aea)
+
+- Доступ в интернет на сервере:
+
+![image](https://github.com/user-attachments/assets/dc5d453c-4004-46c9-b7ca-a0ef92a4d0dc)
+
+
+## Вывод
+
+В результате работы была развернута виртуальная машина для роутера Mikrotik, которая соединяется Wireguard VPN туннелем с удаленным сервером в облаке.
