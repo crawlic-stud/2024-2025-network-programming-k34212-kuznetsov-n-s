@@ -6,7 +6,7 @@ Group: K34212
 Author: Nikita Kuznetsov
 Lab: Lab1  
 Date of create: 27.09.2024  
-Date of finished: 28.09.2024  
+Date of finished: 29.09.2024  
 
 ## Лабораторная работа №1 "Установка CHR и Ansible, настройка VPN"
 
