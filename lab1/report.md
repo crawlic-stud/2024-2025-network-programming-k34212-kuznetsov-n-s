@@ -17,6 +17,8 @@ Date of finished: 29.09.2024
 Целью данной работы является развертывание виртуальной машины на базе платформы Microsoft Azure с установленной системой контроля конфигураций Ansible и установка CHR в VirtualBox
 
 ## Ход работы
+<s>ГАЗМЯС?</s>
+
 По гайду от [Mikrotik](https://wiki.mikrotik.com/wiki/Manual:CHR_VirtualBox_installation) была установлена виртуальная машина на RouterOS в VirtualBox:
 
 ![image](https://github.com/user-attachments/assets/56208be9-fad4-4e97-9cee-f113c2fc160c)
